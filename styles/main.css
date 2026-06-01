@@ -1,151 +1,19 @@
+@import url(./header.css);
+@import url(./intro.css);
+@import url(./faq.css);
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: Poppins, sans-serif;
 }
 
-/* Header */
-
-.header {
-  width: 100%;
-  height: 101px;
-  background: #e43071;
+section {
+  margin: 0 auto;
+  width: 1440px;
 }
-.header__inner {
-  padding: 0 136px 0 136px;
-  display: flex;
-  height: 100%;
-  align-items: center;
-}
-
-.header__logo {
-  margin-right: 172px;
-}
-.header__nav {
-  width: 100%;
-}
-.header__nav-list {
-  display: flex;
-  justify-content: space-between;
-}
-
-.header__nav-link {
-  display: flex;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 110%;
-  letter-spacing: 0px;
-  text-align: center;
-  color: #ffffff;
-  text-decoration: none;
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
-
-.header__nav-link:hover {
-  opacity: 0.5;
-}
-
-.header__search-img {
-  margin-left: 6px;
-}
-
-.header__login-btn {
-  margin-left: 36.88px;
-  padding: 16px 61px;
-  border-radius: 200px;
-  border: none;
-  outline: none;
-
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 110%;
-  letter-spacing: 0px;
-  text-align: center;
-  color: #e43071;
-  cursor: pointer;
-  transition: all 0.7s ease;
-}
-
-.header__login-btn:hover {
-  box-shadow:
-    0 0 0 2px #e43071,
-    0 0 0 10px #ffdae7;
-}
-
-/* Intro */
-
-.intro {
-  width: 100%;
-  position: relative;
-  overflow: hidden;
-}
-
-.intro__wrapper {
-  position: absolute;
-  width: 100%;
-  top: 241px;
-  z-index: 10;
-}
-
-.intro__title {
-  font-weight: 700;
-  font-size: 90px;
-  line-height: 110%;
-  letter-spacing: 0px;
-  text-align: center;
-  color: #ffffff;
-}
-
-span {
-  color: #ffc1d8;
-}
-
-.intro__btn-form {
-  position: absolute;
-  top: 320px;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  padding: 14px 56px;
-  border-radius: 38.5px;
-  background: #e43071;
-  border: none;
-  outline: none;
-
-  font-family: Open Sans;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 37px;
-  letter-spacing: 0px;
-  text-align: center;
-  color: #ffff;
-  cursor: pointer;
-  transition: all 0.7s ease;
-}
-
-.intro__btn-form:hover {
-  box-shadow:
-    0 0 0 2px #e43071,
-    0 0 0 10px #ffdae7;
-}
-
-.intro__sliders {
-  display: flex;
-  width: 500%;
-}
-
-.intro__slide {
-  width: 100%;
-  flex-shrink: 0;
-}
-
-.intro__slide-img {
-  width: 100vw;
-  height: auto;
-  display: block;
-}
-
-.intro__slider-indicator {
-  position: absolute;
-  bottom: 34px;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.container {
+  padding: 0 140px;
 }
