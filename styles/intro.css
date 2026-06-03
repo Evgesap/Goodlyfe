@@ -1,5 +1,9 @@
 /* Intro */
 
+.section__intro {
+  margin-bottom: 94.4px;
+}
+
 .intro {
   width: 100%;
   height: auto;
@@ -79,7 +83,7 @@ span {
   transform: translate(-50%, -50%);
 }
 
-.intro-input-indicator {
+.intro__input-indicator {
   appearance: none;
   position: relative;
   width: 12px;
@@ -88,7 +92,7 @@ span {
   border-radius: 50%;
 }
 
-.intro-input-indicator::before {
+.intro__input-indicator::before {
   content: "";
   position: absolute;
   background: #e43071;
@@ -101,7 +105,7 @@ span {
   cursor: pointer;
 }
 
-.intro-input-indicator:checked::before {
+.intro__input-indicator:checked::before {
   width: 17px;
   height: 17px;
   cursor: pointer;
