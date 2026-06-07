@@ -1,3 +1,4 @@
+/* Faq */
 .section__faq {
   margin-bottom: 122px;
 }
@@ -57,12 +58,12 @@
 }
 
 .faq__card-btn {
+  width: 237px;
+  height: 68px;
   margin-top: 25px;
-  padding: 15px 65px 16px 65px;
   box-sizing: border-box;
   border: 2px solid rgba(228, 48, 113, 1);
   background: #ffffff;
-  border-radius: 38.5px;
 
   color: rgba(228, 48, 113, 1);
 
@@ -73,7 +74,6 @@
   line-height: 37px;
   letter-spacing: 0px;
   text-align: center;
-  cursor: pointer;
 }
 
 .faq__card-btn:hover {

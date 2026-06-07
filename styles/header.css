@@ -46,8 +46,10 @@
 }
 
 .header__login-btn {
+  width: 166px;
+  height: 50px;
+  padding: 16px 61px 16px 62px;
   margin-left: 36.88px;
-  padding: 16px 61px;
   border-radius: 200px;
   border: none;
   outline: none;
