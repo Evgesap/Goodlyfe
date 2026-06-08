@@ -2,6 +2,8 @@
 @import url(./intro.css);
 @import url(./faq.css);
 @import url(./galery.css);
+@import url(./sevises.css);
+@import url(./reviews.css);
 
 html {
   scroll-behavior: smooth;
