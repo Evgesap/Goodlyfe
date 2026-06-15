@@ -1,0 +1,142 @@
+.reviews {
+  display: grid;
+  grid-template-columns: 500px 500px;
+  gap: 33px;
+  justify-content: center;
+}
+
+.reviews__card-title .grid-item {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
+.reviews__card-1 .grid-item {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
+.reviews__card-2 .grid-item {
+  grid-column: 1/ 2;
+  grid-row: 2 / 3;
+}
+.reviews__card-3 .grid-item {
+  grid-column: 2/ 3;
+  grid-row: 2 / 3;
+}
+.reviews__card-title {
+  width: 414px;
+  height: 114px;
+  justify-self: end;
+}
+.reviews__title {
+  color: var(--GreyTwo, rgba(66, 66, 66, 1));
+
+  font-family: "Poppins";
+  font-style: SemiBold;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 119.2%;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.reviews__text {
+  color: var(--GreyTwo, rgba(66, 66, 66, 1));
+
+  font-family: "Poppins";
+  font-style: Regular;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.reviews__card-1 {
+  width: 449px;
+  height: 343px;
+  padding: 46px 32px 36px 34px;
+  border-radius: 10px;
+  box-shadow: 1px 4px 8px 0px rgba(0, 0, 0, 0.18);
+  background: rgba(255, 255, 255, 1);
+}
+
+.card__content-title {
+  color: rgba(228, 48, 113, 1);
+
+  font-family: "Poppins";
+  font-style: SemiBold;
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 119.2%;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-bottom: 17px;
+}
+
+.card__content-text {
+  color: rgba(66, 66, 66, 1);
+
+  font-family: "Poppins";
+  font-style: Regular;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-bottom: 17px;
+}
+
+.card__info-author {
+  display: flex;
+}
+
+.card__info-img {
+  width: 59px;
+  height: 57px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+  margin-right: 17px;
+}
+
+.card__info-name {
+  color: rgba(66, 66, 66, 1);
+
+  font-family: "Poppins";
+  font-style: SemiBold;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 34px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.card__info-text {
+  color: rgba(150, 155, 171, 1);
+
+  font-family: "Poppins";
+  font-style: Regular;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 34px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.reviews__card-2 {
+  width: 349px;
+  height: 445px;
+  padding: 46px 32px 36px 34px;
+  border-radius: 10px;
+  box-shadow: 1px 4px 8px 0px rgba(0, 0, 0, 0.18);
+  background: rgba(255, 255, 255, 1);
+  justify-self: end;
+}
+
+.reviews__card-3 {
+  width: 351px;
+  height: 278px;
+  padding: 46px 32px 36px 34px;
+  border-radius: 10px;
+  box-shadow: 1px 4px 8px 0px rgba(0, 0, 0, 0.18);
+  background: rgba(255, 255, 255, 1);
+}
