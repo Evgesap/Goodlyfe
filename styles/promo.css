@@ -1,0 +1,75 @@
+.section__promo {
+  width: 100%;
+  background: rgba(228, 48, 113, 1);
+}
+
+.promo {
+  display: flex;
+  justify-content: center;
+}
+
+.promo__cart-content {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 661px;
+  height: 572px;
+}
+
+.promo__card-wrapper {
+  align-self: flex-end;
+}
+
+.promo__cart-title {
+  margin-top: 112px;
+  color: rgba(255, 255, 255, 1);
+  font-family: "Poppins";
+  font-style: Bold;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.promo__card-text {
+  margin-top: 15px;
+  color: rgba(255, 255, 255, 1);
+  font-family: "Poppins";
+  font-style: Regular;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 37px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.promo__card-download {
+  margin-top: 15px;
+  color: rgba(255, 255, 255, 0.6);
+  font-family: "Poppins";
+  font-style: Regular;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.promo__img-button {
+  margin-top: 15px;
+  width: 135px;
+  height: 40px;
+}
+
+.promo__card-tel-1 {
+  position: absolute;
+  left: 50px;
+  bottom: 90px;
+}
+
+.promo__card-tel-2 {
+  position: absolute;
+  left: 312px;
+  top: 170px;
+}
