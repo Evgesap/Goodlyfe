@@ -1,0 +1,15 @@
+<svg viewBox="0 0 14.9579 29.9451" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14.957886" height="29.945068" fill="none" customFrame="#000000">
+	<defs>
+		<filter id="pixso_custom_mask_type_outline">
+			<feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0 " />
+		</filter>
+	</defs>
+	<mask id="mask_0" width="14.957733" height="29.945023" x="0.000000" y="0.000000" maskUnits="userSpaceOnUse">
+		<g filter="url(#pixso_custom_mask_type_outline)">
+			<path id="Clip 2" d="M7.47887 29.945L14.9577 29.945L14.9577 0L7.47887 0L0 0L0 29.945L7.47887 29.945Z" fill="rgb(255,255,255)" fill-rule="evenodd" />
+		</g>
+	</mask>
+	<g id="Page 1" mask="url(#mask_0)">
+		<path id="Fill 1" d="M9.70881 29.945L9.70881 16.2858L14.1189 16.2858L14.7792 10.9624L9.70881 10.9624L9.70881 7.5637C9.70881 6.02247 10.1204 4.97207 12.2464 4.97207L14.9578 4.97088L14.9578 0.209736C14.4887 0.144978 12.8793 0 11.0068 0C7.09767 0 4.42131 2.48075 4.42131 7.03665L4.42131 10.9624L0 10.9624L0 16.2858L4.42131 16.2858L4.42131 29.945L9.70881 29.945Z" fill="rgb(228,48,113)" fill-rule="evenodd" />
+	</g>
+</svg>
