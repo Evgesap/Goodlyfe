@@ -1,35 +1,50 @@
+.section__reviews {
+  width: 100%;
+  background:
+    linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    rgba(244, 227, 233, 1);
+}
 .reviews {
+  position: relative;
+  padding: 126px 0 125px 0;
+}
+.reviews__grid {
   display: grid;
   grid-template-columns: 500px 500px;
+  grid-template-rows: auto auto;
   gap: 33px;
   justify-content: center;
 }
 
-.reviews__card-title .grid-item {
+.reviews__card-1.grid-item {
   grid-column: 1 / 2;
+  grid-row: 1 / 3;
+}
+
+.reviews__card-2.grid-item {
+  grid-column: 2/ 3;
   grid-row: 1 / 2;
 }
-.reviews__card-1 .grid-item {
-  grid-column: 1 / 2;
-  grid-row: 1 / 2;
-}
-.reviews__card-2 .grid-item {
-  grid-column: 1/ 2;
-  grid-row: 2 / 3;
-}
-.reviews__card-3 .grid-item {
+
+.reviews__card-3.grid-item {
   grid-column: 2/ 3;
   grid-row: 2 / 3;
 }
+
 .reviews__card-title {
-  width: 414px;
-  height: 114px;
-  justify-self: end;
+  width: 100%;
+  max-width: 414px;
+  position: absolute;
+  top: 100px;
+  left: 21%;
 }
+
 .reviews__title {
   color: var(--GreyTwo, rgba(66, 66, 66, 1));
-
-  font-family: "Poppins";
   font-style: SemiBold;
   font-size: 48px;
   font-weight: 600;
@@ -40,8 +55,6 @@
 
 .reviews__text {
   color: var(--GreyTwo, rgba(66, 66, 66, 1));
-
-  font-family: "Poppins";
   font-style: Regular;
   font-size: 18px;
   font-weight: 400;
@@ -51,6 +64,17 @@
 }
 
 .reviews__card-1 {
+  width: 349px;
+  height: 445px;
+  padding: 35px 32px 36px 27px;
+  border-radius: 10px;
+  box-shadow: 1px 4px 8px 0px rgba(0, 0, 0, 0.18);
+  background: rgba(255, 255, 255, 1);
+  justify-self: end;
+  margin-top: 147px;
+}
+
+.reviews__card-2 {
   width: 449px;
   height: 343px;
   padding: 46px 32px 36px 34px;
@@ -59,10 +83,21 @@
   background: rgba(255, 255, 255, 1);
 }
 
+.reviews__card-3 {
+  width: 351px;
+  height: 278px;
+  padding: 31px 31px 30px 35px;
+  border-radius: 10px;
+  box-shadow: 1px 4px 8px 0px rgba(0, 0, 0, 0.18);
+  background: rgba(255, 255, 255, 1);
+}
+
+.card__content {
+  position: relative;
+}
+
 .card__content-title {
   color: rgba(228, 48, 113, 1);
-
-  font-family: "Poppins";
   font-style: SemiBold;
   font-size: 38px;
   font-weight: 600;
@@ -72,10 +107,12 @@
   margin-bottom: 17px;
 }
 
+.card_content-description {
+  margin-left: 30px;
+}
+
 .card__content-text {
   color: rgba(66, 66, 66, 1);
-
-  font-family: "Poppins";
   font-style: Regular;
   font-size: 18px;
   font-weight: 400;
@@ -100,8 +137,6 @@
 
 .card__info-name {
   color: rgba(66, 66, 66, 1);
-
-  font-family: "Poppins";
   font-style: SemiBold;
   font-size: 18px;
   font-weight: 600;
@@ -110,33 +145,23 @@
   text-align: left;
 }
 
+.card__content-text::before {
+  content: "";
+  display: block;
+  background-image: url("/GoodLyfe/resource/image/Real\ stories\ copy.svg");
+  position: absolute;
+  top: 43px;
+  left: -5px;
+  width: 29px;
+  height: 67px;
+}
+
 .card__info-text {
   color: rgba(150, 155, 171, 1);
-
-  font-family: "Poppins";
   font-style: Regular;
   font-size: 14px;
   font-weight: 400;
   line-height: 34px;
   letter-spacing: 0px;
   text-align: left;
-}
-
-.reviews__card-2 {
-  width: 349px;
-  height: 445px;
-  padding: 46px 32px 36px 34px;
-  border-radius: 10px;
-  box-shadow: 1px 4px 8px 0px rgba(0, 0, 0, 0.18);
-  background: rgba(255, 255, 255, 1);
-  justify-self: end;
-}
-
-.reviews__card-3 {
-  width: 351px;
-  height: 278px;
-  padding: 46px 32px 36px 34px;
-  border-radius: 10px;
-  box-shadow: 1px 4px 8px 0px rgba(0, 0, 0, 0.18);
-  background: rgba(255, 255, 255, 1);
 }
