@@ -6,6 +6,7 @@
 @import url(./reviews.css);
 @import url(./promo.css);
 @import url(./social.css);
+@import url(./footer.css);
 
 html {
   scroll-behavior: smooth;
