@@ -38,6 +38,7 @@
   border-radius: 50%;
   background: rgba(255, 255, 255, 1);
   text-decoration: none;
+  transition: 0.8s;
 }
 
 .social__img-button-1 {
@@ -53,4 +54,10 @@
 .social__img-button-3 {
   width: 30px;
   height: 30px;
+}
+
+.social__img-link:hover {
+  box-shadow:
+    0 0 0 2px #e43071,
+    0 0 0 10px #ffdae7;
 }
