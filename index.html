@@ -7,8 +7,10 @@
     <title>Goodlyfe</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/main.css">
@@ -306,79 +308,85 @@
     <footer class="footer">
         <div class="container">
             <div class="footer__wrapper">
-                <div class="footer__content">
-                    <div class="footer__card">
-                        <div class="footer__logo">
-                            <a href="#" class="footer__logo-link" aria-label="На главную"><img class="footer__logo-img"
-                                    src="./resource/image/The Benefits of Milo.png" alt="Goodlyfe — фитнес клуб"></a>
-                        </div>
+                <div class="footer__navigator">
+                    <div class="footer__content">
+                        <h2 class="footer__logo"><img src="./resource/image/The Benefits of Milo.png"
+                                alt="Логотип фитнес клуба" class="footer__logo-img">
+                        </h2>
                         <p class="footer__text">
-                            Lorem ipsum dolor amet, consectetur <br>
-                            adipiscing elit. Eget nisl nunc quam ac<br>
-                            sed turpis volutpat.Cursus sed massa <br>
+                            Lorem ipsum dolor amet, consectetur
+                            adipiscing elit. Eget nisl nunc quam ac
+                            sed turpis volutpat. Cursus sed massa
                             non nisi, placerat.
                         </p>
                         <div class="footer__social">
-                            <a href="#" class="footer__social-link">
-                                <img src="./resource/image/Social Icons _ White _ Instagram.svg" alt="Иконка istagram"
-                                    class="footer__social-img">
-                            </a>
-                            <a href="#" class="footer__social-link">
-                                <img src="./resource/image/Dribbble.svg" alt="иконка dribble"
-                                    class="footer__social-img">
-                            </a>
-                            <a href="#" class="footer__social-link">
-                                <img src="./resource/image/Social Icons _ White _ Twitter.svg" alt="Иконка twiter"
-                                    class="footer__social-img">
-                            </a>
-                            <a href="#" class="footer__social-link">
-                                <img src="./resource/image/YouTube_2.svg" alt="Иконка Youtube"
-                                    class="footer__social-img">
-                            </a>
+                            <ul class="footer__social-list">
+                                <li><a href="#" class="footer__social-link"><img
+                                            src="./resource/image/Social Icons _ White _ Instagram.svg" alt=""
+                                            class="footer__social-img"></a></li>
+                                <li><a href="#" class="footer__social-link"><img src="./resource/image/Dribbble.svg"
+                                            alt="" class="footer__social-img"></a></li>
+                                <li><a href="#" class="footer__social-link"><img
+                                            src="./resource/image/Social Icons _ White _ Twitter.svg" alt=""
+                                            class="footer__social-img"></a></li>
+                                <li><a href="#" class="footer__social-link"><img src="./resource/image/YouTube_2.svg"
+                                            alt="" class="footer__social-img"></a></li>
+                            </ul>
                         </div>
                     </div>
                     <div class="footer__nav-wrapper">
-                        <nav class="footer__nav">
-                            <h2 class="footer__title">Quick Links</h2>
-                            <ul class="footer__nav-list">
-                                <li><a href="#" class="footer__nav-link">Classess</a></li>
-                                <li><a href="#" class="footer__nav-link">Timetable</a></li>
-                                <li><a href="#" class="footer__nav-link">Clubs</a></li>
-                                <li><a href="#" class="footer__nav-link">Nutrition</a></li>
-                                <li><a href="#" class="footer__nav-link">Free Trial</a></li>
-                            </ul>
-                        </nav>
-                        <nav class="footer__nav">
-                            <h2 class="footer__title">Guides</h2>
-                            <ul class="footer__nav-list">
-                                <li><a href="#" class="footer__nav-link">Weight Loss</a></li>
-                                <li><a href="#" class="footer__nav-link">Strength Gain</a></li>
-                                <li><a href="#" class="footer__nav-link">Crossfit</a></li>
-                                <li><a href="#" class="footer__nav-link">Washbaord Abs</a></li>
-                                <li><a href="#" class="footer__nav-link">Dieting</a></li>
-                            </ul>
-                        </nav>
-                        <nav class="footer__nav">
-                            <h2 class="footer__title">Reach us</h2>
-                            <ul class="footer__nav-list">
-                                <li><a href="mailto:hello@mail.com" class="footer__nav-mail">admin@goodlyfe.co</a></li>
-                                <li><a href="tel:+7 935  895-45-35" class="footer__nav-tel">+88 98765 43210</a></li>
-                                <li><a href="#" class="footer__nav-geo">90210 Beverly Hills
-                                        California USA</a></li>
-                            </ul>
-                        </nav>
+                        <div class="footer__nav-content">
+                            <h2 class="footer__nav-title">Quick Links</h2>
+                            <nav class="footer__nav">
+                                <ul class="footer__nav-list">
+                                    <li><a href="#" class="footer__nav-link">Classess</a></li>
+                                    <li><a href="#" class="footer__nav-link">Timetable</a></li>
+                                    <li><a href="#" class="footer__nav-link">Clubs</a></li>
+                                    <li><a href="#" class="footer__nav-link">Nutrition</a></li>
+                                    <li><a href="#" class="footer__nav-link">Free Trial</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="footer__nav-content">
+                            <h2 class="footer__nav-title">Guides</h2>
+                            <nav class="footer__nav">
+                                <ul class="footer__nav-list">
+                                    <li><a href="#" class="footer__nav-link">Classess</a></li>
+                                    <li><a href="#" class="footer__nav-link">Timetable</a></li>
+                                    <li><a href="#" class="footer__nav-link">Clubs</a></li>
+                                    <li><a href="#" class="footer__nav-link">Nutrition</a></li>
+                                    <li><a href="#" class="footer__nav-link">Free Trial</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="footer__nav-content">
+                            <h2 class="footer__nav-title">Reach us</h2>
+                            <nav class="footer__nav">
+                                <ul class="footer__nav-list">
+                                    <li><a href="mailto:admin@goodlyfe.com"
+                                            class="footer__nav-link">admin@goodlyfe.co</a></li>
+                                    <li><a href="tel:+88 98765 43210" class="footer__nav-link">+88 98765 43210</a></li>
+                                    <li><a href="#" class="footer__nav-link">90210 Beverly Hills
+                                            California USA</a></li>
+                                </ul>
+                            </nav>
+                        </div>
                     </div>
                 </div>
-                <div class="footer__copyright">
-                    <p class="footer__copyright-text">
-                        © 2020 GoodLyfe. All rights reserved
-                    </p>
-                    <ul class="footer__copyright-list">
-                        <li><span><a href="#" class="footer__copyright-link">Terms & Conditions</a></span></li>
-                        <li><span><a href="#" class="footer__copyright-link">Privacy Policy</a></span></li>
-                        <li><span><a href="#" class="footer__copyright-link">Sitemap</a></span></li>
-                        <li><a href="#" class="footer__copyright-link">Disclaimer</a></li>
-                    </ul>
+                <div class="footer__copyrigth-wrapper">
+                    <div class="footer__copyrigth">
+                        <p class="footer__copyrigth-text">
+                            © 2020 GoodLyfe. All rights reserved
+                        </p>
+                    </div>
+                    <div class="footer__copyrigth-terms-of-service">
+                        <ul class="footer__nav-list">
+                            <li><a href="#" class="footer__nav-link">Terms & Conditions</a></li>
+                            <li><a href="#" class="footer__nav-link">Privacy Policy</a></li>
+                            <li><a href="#" class="footer__nav-link">Sitemap</a></li>
+                            <li><a href="#" class="footer__nav-link">Disclaimer</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>

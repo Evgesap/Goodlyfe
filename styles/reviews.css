@@ -1,5 +1,5 @@
 .section__reviews {
-  width: 100%;
+  width: 100vw;
   background:
     linear-gradient(
       180deg,
@@ -14,7 +14,7 @@
 }
 .reviews__grid {
   display: grid;
-  grid-template-columns: 500px 500px;
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: auto auto;
   gap: 33px;
   justify-content: center;
