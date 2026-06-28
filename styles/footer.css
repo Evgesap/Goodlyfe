@@ -143,6 +143,7 @@
   height: 24px;
   position: absolute;
   left: -30px;
+  bottom: 10px;
 }
 
 .footer__nav-link-contact:hover {
