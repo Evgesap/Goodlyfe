@@ -1,9 +1,9 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const slides = document.querySelector(".galery__sliders-js");
-  const slideCount = document.querySelectorAll(".galery__slide-js").length;
-  const slider = document.querySelector(".galery__slider-js");
-  const indicators = document.querySelectorAll(".galery__label-js");
-  const radioButtons = document.querySelectorAll(".galery__indicator-js");
+  const slides = document.querySelector(".gallery__sliders-js");
+  const slideCount = document.querySelectorAll(".gallery__slide-js").length;
+  const slider = document.querySelector(".gallery__slider-js");
+  const indicators = document.querySelectorAll(".gallery__label-js");
+  const radioButtons = document.querySelectorAll(".gallery__indicator-js");
 
   let currentIndex = 0;
   let autoPlayInterval = null;

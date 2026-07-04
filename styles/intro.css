@@ -1,6 +1,8 @@
 /* Intro */
 
 .section__intro {
+  margin: 0 auto;
+  width: 1440px;
   margin-bottom: 94.4px;
 }
 
