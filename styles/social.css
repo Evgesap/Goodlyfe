@@ -12,8 +12,8 @@
 
 .social__title {
   margin-top: 64px;
-  color: var(--PremiumPink, rgba(228, 48, 113, 1));
-  font-family: "Poppins";
+  color: var(--PremiumPink, var(--primary-color));
+  font-family: var(--font-family);
   font-style: Bold;
   font-size: 40px;
   font-weight: 700;
@@ -36,9 +36,9 @@
   width: 110px;
   height: 110px;
   border-radius: 50%;
-  background: rgba(255, 255, 255, 1);
+  background: var(--secondary-color);
   text-decoration: none;
-  transition: 0.8s;
+  transition: var(--transition);
 }
 
 .social__img-button-1 {
@@ -58,6 +58,6 @@
 
 .social__img-link:hover {
   box-shadow:
-    0 0 0 2px #e43071,
+    0 0 0 2px var(--primary-color),
     0 0 0 10px #ffdae7;
 }

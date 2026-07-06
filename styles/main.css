@@ -8,15 +8,30 @@
 @import url(./social.css);
 @import url(./footer.css);
 
+:root {
+  /* colors */
+  --primary-color: #e43071;
+  --secondary-color: #ffffff;
+  --pink-color: #ffc1d8;
+  --text-color: #000000;
+
+  /* transition */
+  --transition: all 0.8s ease;
+
+  /* Typography */
+  --font-family: Poppins, sans-serif;
+  --font-style: Regular;
+  --font-weight-bold: 700;
+  --font-weight-normal: 400;
+}
+
 html {
   scroll-behavior: smooth;
 }
 
 body {
-  font-family: Poppins, sans-serif;
-  background: #ffffff;
+  font-family: var(--font-family);
 }
-
 section {
   width: 100%;
 }
@@ -40,18 +55,18 @@ button {
   display: block;
   width: 12px;
   height: 12px;
-  background: #ffffff;
+  background: var(--secondary-color);
   border-radius: 50%;
   cursor: pointer;
-  transition: all 0.2s ease;
+  transition: var(--transition);
 }
 
 .label-indicator.active {
-  background: #e43071;
+  background: var(--primary-color);
   transform: scale(1.4);
 }
 
 .label-indicator:hover {
-  background: #e43071;
+  background: var(--primary-color);
   transform: scale(1.4);
 }

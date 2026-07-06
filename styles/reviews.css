@@ -39,7 +39,7 @@
 
 .reviews__text {
   color: var(--GreyTwo, rgba(66, 66, 66, 1));
-  font-style: Regular;
+  font-style: var(--font-style);
   font-size: 18px;
   font-weight: 400;
   line-height: 27px;
@@ -54,7 +54,7 @@
   padding: 35px 32px 36px 27px;
   border-radius: 10px;
   box-shadow: 1px 4px 8px 0px rgba(0, 0, 0, 0.18);
-  background: rgba(255, 255, 255, 1);
+  background: var(--secondary-color);
   justify-self: end;
   margin-top: 40px;
   transition: 0.7s;
@@ -72,9 +72,9 @@
   padding: 46px 32px 36px 34px;
   border-radius: 10px;
   box-shadow: 1px 4px 8px 0px rgba(0, 0, 0, 0.18);
-  background: rgba(255, 255, 255, 1);
+  background: var(--secondary-color);
   justify-self: end;
-  transition: 0.7s;
+  transition: var(--transition);
   cursor: pointer;
 }
 
@@ -89,8 +89,8 @@
   padding: 31px 31px 30px 35px;
   border-radius: 10px;
   box-shadow: 1px 4px 8px 0px rgba(0, 0, 0, 0.18);
-  background: rgba(255, 255, 255, 1);
-  transition: 0.7s;
+  background: var(--secondary-color);
+  transition: var(--transition);
   cursor: pointer;
 }
 
@@ -103,7 +103,7 @@
 }
 
 .card__content-title {
-  color: rgba(228, 48, 113, 1);
+  color: var(--primary-color);
   font-style: SemiBold;
   font-size: 38px;
   font-weight: 600;
@@ -119,7 +119,7 @@
 
 .card__content-text {
   color: rgba(66, 66, 66, 1);
-  font-style: Regular;
+  font-style: var(--font-style);
   font-size: 18px;
   font-weight: 400;
   line-height: 32px;
@@ -164,7 +164,7 @@
 
 .card__info-text {
   color: rgba(150, 155, 171, 1);
-  font-style: Regular;
+  font-style: var(--font-style);
   font-size: 14px;
   font-weight: 400;
   line-height: 34px;

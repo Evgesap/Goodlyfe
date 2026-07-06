@@ -18,9 +18,9 @@
 
 .servises__card-title {
   margin-top: 103px;
-  color: rgba(228, 48, 113, 1);
+  color: var(--primary-color);
 
-  font-family: "Poppins";
+  font-family: var(--font-family);
   font-style: Bold;
   font-size: 40px;
   font-weight: 700;
@@ -52,12 +52,12 @@
   height: 68px;
   margin-top: 25px;
   box-sizing: border-box;
-  border: 2px solid rgba(228, 48, 113, 1);
-  background: #ffffff;
+  border: 2px solid var(--primary-color);
+  background: var(--secondary-color);
 
-  color: rgba(228, 48, 113, 1);
+  color: var(--primary-color);
 
-  font-family: "Poppins";
+  font-family: var(--font-family);
   font-style: SemiBold;
   font-size: 16px;
   font-weight: 600;
@@ -68,6 +68,6 @@
 
 .servises__card-btn:hover {
   box-shadow:
-    0 0 0 2px #e43071,
+    0 0 0 2px var(--primary-color),
     0 0 0 10px #ffdae7;
 }
