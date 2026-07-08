@@ -2,7 +2,7 @@
 @import url(./intro.css);
 @import url(./faq.css);
 @import url(./gallery.css);
-@import url(./serviсes.css);
+@import url(./services.css);
 @import url(./reviews.css);
 @import url(./promo.css);
 @import url(./social.css);
@@ -20,7 +20,6 @@
 
   /* Typography */
   --font-family: Poppins, sans-serif;
-  --font-style: Regular;
   --font-weight-bold: 700;
   --font-weight-normal: 400;
 }

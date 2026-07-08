@@ -34,7 +34,7 @@
 .gallery__text {
   color: var(--secondary-color);
   font-family: "Open Sans";
-  font-style: Semibold;
+  font-weight: var(--font-weight-bold);
   font-size: 17px;
   font-weight: 400;
   line-height: 20px;
@@ -42,7 +42,7 @@
   text-align: center;
 }
 
-.gallery__btn-form {
+.gallery__btn {
   position: absolute;
   width: 237px;
   height: 68px;
@@ -61,7 +61,7 @@
   transition: var(--transition);
 }
 
-.gallery__btn-form:hover {
+.gallery__btn:hover {
   box-shadow:
     0 0 0 2px var(--primary-color),
     0 0 0 10px #ffdae7;

@@ -24,7 +24,7 @@
   margin-top: 112px;
   color: var(--secondary-color);
   font-family: var(--font-family);
-  font-style: Bold;
+  font-weight: var(--font-weight-bold);
   font-size: 40px;
   font-weight: 700;
   line-height: 60px;
@@ -54,6 +54,10 @@
   line-height: 24px;
   letter-spacing: 0px;
   text-align: left;
+}
+
+.promo__img-button:hover {
+  opacity: 0.8;
 }
 
 .promo__img-button {

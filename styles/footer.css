@@ -62,7 +62,6 @@
 
 .footer__nav-title {
   color: var(--Default-White, rgba(255, 255, 255, 1));
-  font-style: Medium;
   font-size: 20px;
   font-weight: 500;
   line-height: 30px;
@@ -72,7 +71,7 @@
 
 .footer__nav-link {
   color: var(--Text-Gray300, rgba(217, 219, 225, 1));
-  font-style: Regular;
+  font-style: var(--font-style);
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
@@ -159,7 +158,7 @@
 
 .footer__copyrigth-text {
   color: var(--Text-Gray300, rgba(217, 219, 225, 1));
-  font-style: Regular;
+  font-style: var(--font-style);
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
