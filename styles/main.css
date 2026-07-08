@@ -8,6 +8,10 @@
 @import url(./social.css);
 @import url(./footer.css);
 
+* {
+  outline: 1px solid red;
+}
+
 :root {
   /* colors */
   --primary-color: #e43071;
@@ -20,6 +24,7 @@
 
   /* Typography */
   --font-family: Poppins, sans-serif;
+  --font-style: Regular;
   --font-weight-bold: 700;
   --font-weight-normal: 400;
 }
@@ -30,6 +35,7 @@ html {
 
 body {
   font-family: var(--font-family);
+  overflow-x: hidden;
 }
 section {
   width: 100%;
@@ -68,4 +74,13 @@ button {
 .label-indicator:hover {
   background: var(--primary-color);
   transform: scale(1.4);
+}
+
+/* Scope 1199px */
+
+@media (max-width: 1199px) {
+  .container {
+    width: 100%;
+    padding: 0 17px 0 15px;
+  }
 }

@@ -1,12 +1,12 @@
 /* Intro */
 
 .section__intro {
-  margin: 0 auto;
-  width: 1440px;
   margin-bottom: 94.4px;
 }
 
 .intro {
+  margin: 0 auto;
+  max-width: 1440px;
   width: 100%;
   height: auto;
   position: relative;
@@ -70,7 +70,7 @@ span {
 }
 
 .intro__slide-img {
-  width: 1440px;
+  max-width: 1440px;
   height: 100%;
   display: block;
 }
@@ -83,4 +83,13 @@ span {
   display: flex;
   gap: 12px;
   z-index: 20;
+}
+
+/* Scope 1199px */
+
+@media (max-width: 1199px) {
+  .intro {
+    width: 100%;
+    margin-bottom: 74.4px;
+  }
 }

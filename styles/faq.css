@@ -13,7 +13,8 @@
   position: absolute;
   width: 100%;
   top: -128.5px;
-  left: -10.001%;
+  left: 0;
+  transform: translateX(-10%);
 }
 
 .faq__card {
@@ -80,4 +81,12 @@
   box-shadow:
     0 0 0 2px var(--primary-color),
     0 0 0 10px #ffdae7;
+}
+
+/* Scope 1199px */
+
+@media (max-width: 1199px) {
+  .faq__transition {
+    overflow: hidden;
+  }
 }
