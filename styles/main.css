@@ -8,10 +8,6 @@
 @import url(./social.css);
 @import url(./footer.css);
 
-* {
-  outline: 1px solid red;
-}
-
 :root {
   /* colors */
   --primary-color: #e43071;
@@ -81,6 +77,10 @@ button {
 @media (max-width: 1199px) {
   .container {
     width: 100%;
-    padding: 0 17px 0 15px;
+    padding: 0 15px 0 15px;
+  }
+
+  button {
+    border-radius: 38.5px;
   }
 }

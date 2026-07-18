@@ -1,20 +1,12 @@
 /* Faq */
 .section__faq {
-  margin-bottom: 122px;
+  margin-bottom: 100px;
 }
 
 .faq {
   width: 100%;
   height: auto;
   position: relative;
-}
-
-.faq__transition {
-  position: absolute;
-  width: 100%;
-  top: -128.5px;
-  left: 0;
-  transform: translateX(-10%);
 }
 
 .faq__card {
@@ -86,7 +78,34 @@
 /* Scope 1199px */
 
 @media (max-width: 1199px) {
-  .faq__transition {
-    overflow: hidden;
+  .section__faq {
+    margin-bottom: 80px;
+  }
+
+  .faq__card-img-behind {
+    width: 25%;
+    position: absolute;
+    left: 100px;
+  }
+
+  .faq__card-img-front {
+    width: 18%;
+    top: 120px;
+    left: 265px;
+  }
+
+  .faq__card-title {
+    font-size: 30px;
+  }
+
+  .faq__card-text {
+    width: 85%;
+    margin-bottom: 5px;
+    font-size: 15px;
+  }
+
+  .faq__card-btn {
+    width: 222px;
+    height: 58px;
   }
 }

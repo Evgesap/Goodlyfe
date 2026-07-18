@@ -96,8 +96,25 @@
 /* Scope 1199px */
 
 @media (max-width: 1199px) {
+  .section__gallery {
+    margin-bottom: 180px;
+  }
+
   .gallery {
     width: 100%;
-    margin-bottom: 74.4px;
+  }
+
+  .gallery__title {
+    font-size: 55px;
+    padding-bottom: 30px;
+  }
+
+  .gallery__text {
+    font-size: 16 px;
+  }
+
+  .gallery__btn {
+    width: 222px;
+    height: 58px;
   }
 }
