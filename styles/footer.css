@@ -184,3 +184,25 @@
 .footer__nav-list-terms-of-service li:last-child::after {
   display: none;
 }
+
+@media (max-width: 1199px) {
+  .footer__navigator {
+    margin-top: 75px;
+  }
+
+  .footer__text {
+    margin-top: 20px;
+  }
+
+  .footer__nav-title {
+    font-size: 18px;
+  }
+
+  .footer__nav-list li {
+    margin-top: 14px;
+  }
+
+  .footer__copyrigth-wrapper {
+    margin-top: 75px;
+  }
+}

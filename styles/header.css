@@ -83,10 +83,15 @@
     width: 100%;
   }
 
+  .header__logo {
+    margin-right: 80px;
+  }
+
   .header__nav-link {
     display: flex;
     font-weight: var(--font-weight-normal);
-    font-size: 16px;
+    justify-content: space-around;
+    font-size: 15px;
   }
 
   .header__search-img {

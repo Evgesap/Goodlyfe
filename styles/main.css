@@ -8,6 +8,10 @@
 @import url(./social.css);
 @import url(./footer.css);
 
+/* * {
+  outline: 1px solid red;
+} */
+
 :root {
   /* colors */
   --primary-color: #e43071;
@@ -28,8 +32,7 @@
 html {
   scroll-behavior: smooth;
 }
-
-body {
+html body {
   font-family: var(--font-family);
   overflow-x: hidden;
 }

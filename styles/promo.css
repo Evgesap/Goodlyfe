@@ -77,3 +77,44 @@
   left: 312px;
   top: 173px;
 }
+
+/* Scope 1199px */
+
+@media (max-width: 1199px) {
+  .promo__cart-content {
+    width: 100%;
+  }
+
+  .promo__cart-title {
+    margin-top: 95px;
+    font-size: 35px;
+  }
+
+  .promo__card-text {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+
+  .promo__card-download {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+
+  .promo__card-tel-1 {
+    position: absolute;
+    left: 2%;
+    bottom: 20%;
+
+    width: 50%;
+    height: auto;
+  }
+
+  .promo__card-tel-2 {
+    position: absolute;
+    left: 45%;
+    top: 31.5%;
+
+    width: 50%;
+    height: auto;
+  }
+}
