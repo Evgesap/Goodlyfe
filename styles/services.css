@@ -109,3 +109,37 @@
     height: 58px;
   }
 }
+
+/* Scope 1024px */
+
+@media (max-width: 1024px) {
+  .services__card-img-front {
+    position: absolute;
+    width: 30%;
+    left: 545px;
+    top: 14px;
+  }
+
+  .services__card-img-behind {
+    width: 30%;
+    left: 645px;
+    top: 115px;
+  }
+}
+
+/* Scope 1032px */
+
+@media (max-width: 1032px) {
+  .services__card-img-front {
+    position: absolute;
+    width: 30%;
+    left: 545px;
+    top: 14px;
+  }
+
+  .services__card-img-behind {
+    width: 30%;
+    left: 645px;
+    top: 115px;
+  }
+}

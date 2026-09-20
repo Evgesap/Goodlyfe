@@ -111,3 +111,19 @@
     height: 58px;
   }
 }
+
+/* Scope 960px */
+
+@media (max-width: 960px) {
+  .faq__card-img-behind {
+    width: 25%;
+    position: absolute;
+    left: 86px;
+  }
+
+  .faq__card-img-front {
+    width: 18%;
+    top: 102px;
+    left: 218px;
+  }
+}
